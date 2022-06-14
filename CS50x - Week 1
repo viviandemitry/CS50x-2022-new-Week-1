@@ -3,7 +3,12 @@
 
 int ain (void)
 {
-    int x = get_int("x: ");
-    int y = get_int("y: ");
-    printf("%i\n", x + y);
+    //Prompt user for x
+    int x = get_long("x: ");
+
+    // Prompt user for y
+    int y = get_long("y: ");
+
+    // Perform addition
+    printf("%li\n", x + y);
 }
